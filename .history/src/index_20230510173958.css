@@ -1211,7 +1211,7 @@ body::-webkit-scrollbar-thumb {
 .three-sec .right .upper {
   display: flex;
   width: 100%;
-  gap: 30px;
+  gap: 10px;
   align-items: center;
 }
 .three-sec .right .upper img {
@@ -1223,19 +1223,7 @@ body::-webkit-scrollbar-thumb {
 }
 .three-sec .right .down {
   display: flex;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   gap: 20px;
-}
-.three-sec .right .down .thorught {
-text-decoration: line-through;
-color: #878787;
-}
-.three-sec .right .down .thorught1 {
-  font-weight: 600;
-  font-size: 20px;
-color: #075522 !important;
-}
-.three-sec .right p{
-  font-size: 18px;
 }

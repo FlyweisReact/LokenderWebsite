@@ -221,27 +221,7 @@ const ElectronicViewCont = () => {
                 </div>
               </div>
               <div className="right">
-                <div className="upper">
-                  <p>₹9,699</p>
-                  <img src={img2} alt="" />
-                </div>
-                <div className="down">
-                  <p className="thorught"> ₹14,999</p>
-                  <p className="thorught2" style={{ color: "#075522" }}>
-                    35% off
-                  </p>
-                </div>
-                <p style={{ fontSize: "14px" }}>Free delivery</p>
-                <p
-                  style={{
-                    fontSize: "18px",
-                    color: "#0d4f25",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Top Discount on Sale
-                </p>
-                <p style={{fontSize : '14px'}}>Upto <strong>₹9,150</strong> off on Exchange</p>
+                <img src={img2} alt="" />
               </div>
             </div>
             <div className="three-sec">
@@ -282,25 +262,15 @@ const ElectronicViewCont = () => {
               <div className="right">
                 <div className="upper">
                   <p>₹9,699</p>
-                  <img src={img2} alt="" />
+                <img src={img2} alt="" />
                 </div>
-                <div className="down">
-                  <p className="thorught"> ₹14,999</p>
-                  <p className="thorught2" style={{ color: "#075522" }}>
-                    35% off
-                  </p>
+                <div className="">
+                  <p>₹14,999</p>
+                  <p>35% off</p>
                 </div>
-                <p style={{ fontSize: "14px" }}>Free delivery</p>
-                <p
-                  style={{
-                    fontSize: "18px",
-                    color: "#0d4f25",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Top Discount on Sale
-                </p>
-                <p style={{fontSize : '14px'}}>Upto <strong>₹9,150</strong> off on Exchange</p>
+                <p>Free delivery</p>
+                <p>Top Discount on Sale</p>
+                <p>Upto ₹9,150 off on Exchange</p>
               </div>
             </div>
 
@@ -340,27 +310,7 @@ const ElectronicViewCont = () => {
                 </div>
               </div>
               <div className="right">
-                <div className="upper">
-                  <p>₹9,699</p>
-                  <img src={img2} alt="" />
-                </div>
-                <div className="down">
-                  <p className="thorught"> ₹14,999</p>
-                  <p className="thorught2" style={{ color: "#075522" }}>
-                    35% off
-                  </p>
-                </div>
-                <p style={{ fontSize: "14px" }}>Free delivery</p>
-                <p
-                  style={{
-                    fontSize: "18px",
-                    color: "#0d4f25",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Top Discount on Sale
-                </p>
-                <p style={{fontSize : '14px'}}>Upto <strong>₹9,150</strong> off on Exchange</p>
+                <img src={img2} alt="" />
               </div>
             </div>
 
@@ -400,27 +350,7 @@ const ElectronicViewCont = () => {
                 </div>
               </div>
               <div className="right">
-                <div className="upper">
-                  <p>₹9,699</p>
-                  <img src={img2} alt="" />
-                </div>
-                <div className="down">
-                  <p className="thorught"> ₹14,999</p>
-                  <p className="thorught2" style={{ color: "#075522" }}>
-                    35% off
-                  </p>
-                </div>
-                <p style={{ fontSize: "14px" }}>Free delivery</p>
-                <p
-                  style={{
-                    fontSize: "18px",
-                    color: "#0d4f25",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Top Discount on Sale
-                </p>
-                <p style={{fontSize : '14px'}}>Upto <strong>₹9,150</strong> off on Exchange</p>
+                <img src={img2} alt="" />
               </div>
             </div>
           </div>

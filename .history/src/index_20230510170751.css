@@ -131,7 +131,7 @@ body::-webkit-scrollbar-thumb {
   width: 80%;
 }
 .filteritem {
-  /* height: 60px; */
+  height: 60px;
   background-color: #fff;
   width: 90%;
 }
@@ -219,31 +219,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 21px;
   color: #000000;
 }
-.dropDownContent {
-  margin-bottom: 20px;
-  display: none;
-  transition: 0.5s ease-in-out;
-}
-.dropDownContent p {
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.dropdown:focus .dropDownContent {
-  display: block;
-}
-.dropDownContent .selectoption {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  margin-left: 20px;
-}
-.dropDownContent .selectoption select {
-  border: 1px solid #000;
-}
-.dropDownContent .selectoption p {
-  margin: 0px;
-}
+.dropdown:focus + .
 
 /*=== right fashion styling ===*/
 
@@ -1172,7 +1148,9 @@ body::-webkit-scrollbar-thumb {
   justify-content: space-evenly;
   gap: 20px;
 }
-
+.three-sec .right {
+  width: 30%;
+}
 .three-sec .left img {
   width: 100%;
 }
@@ -1189,13 +1167,14 @@ body::-webkit-scrollbar-thumb {
   line-height: 21px;
   color: #00654f;
   margin: 0px;
+  
 }
 
 .three-sec .left .second .stars {
   display: flex;
   gap: 10px;
 }
-.three-sec {
+.three-sec{
   margin-top: 20px;
   margin-bottom: 20px;
   position: relative;
@@ -1203,39 +1182,9 @@ body::-webkit-scrollbar-thumb {
 .three-sec .left .second ul {
   margin-top: 10px;
 }
-
 .three-sec .right {
-  width: 30%;
-  padding-right: 20px;
-}
-.three-sec .right .upper {
-  display: flex;
-  width: 100%;
-  gap: 30px;
-  align-items: center;
-}
-.three-sec .right .upper img {
   width: 100px;
+  height: 100%;
+  margin-right: 20px;
 }
-.three-sec .right .upper p {
-  font-size: 25px;
-  font-weight: 500;
-}
-.three-sec .right .down {
-  display: flex;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  gap: 20px;
-}
-.three-sec .right .down .thorught {
-text-decoration: line-through;
-color: #878787;
-}
-.three-sec .right .down .thorught1 {
-  font-weight: 600;
-  font-size: 20px;
-color: #075522 !important;
-}
-.three-sec .right p{
-  font-size: 18px;
-}
+

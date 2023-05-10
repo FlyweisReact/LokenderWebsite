@@ -1211,31 +1211,10 @@ body::-webkit-scrollbar-thumb {
 .three-sec .right .upper {
   display: flex;
   width: 100%;
-  gap: 30px;
+  gap: 10px;
+  justify-content: flex-end;
   align-items: center;
 }
 .three-sec .right .upper img {
   width: 100px;
-}
-.three-sec .right .upper p {
-  font-size: 25px;
-  font-weight: 500;
-}
-.three-sec .right .down {
-  display: flex;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  gap: 20px;
-}
-.three-sec .right .down .thorught {
-text-decoration: line-through;
-color: #878787;
-}
-.three-sec .right .down .thorught1 {
-  font-weight: 600;
-  font-size: 20px;
-color: #075522 !important;
-}
-.three-sec .right p{
-  font-size: 18px;
 }

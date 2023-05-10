@@ -30,7 +30,6 @@ const ElectronicViewCont = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   return (
     <>
       <div className="fashviewcont mt-6">
@@ -38,43 +37,23 @@ const ElectronicViewCont = () => {
           <h3>Filters</h3>
           <div className="filtercont ft">
             <div className="filteritem">
-              <div class="dropdown" tabIndex="0">
+              <div class="dropdown">
                 <div className="dpc">
                   <span>CATEGORIES</span>
                   <i class="fa-solid fa-caret-down"></i>
                 </div>
-                <div className="dropDownContent">
-                  <p>Mobiles & Accessories</p>
-                  <p>Mobiles & Accessories</p>
-                </div>
+                <div className=".dropdown-content "></div>
               </div>
-            </div>
 
+            </div>
             <div className="filteritem">
-              <div class="dropdown" tabIndex="0">
+              <div class="dropdown">
                 <div className="dpc">
                   <span>PRICE</span>
                   <i class="fa-solid fa-caret-down"></i>
                 </div>
-                <div className="dropDownContent">
-                  <div className="selectoption">
-                    <select>
-                      <option>Min</option>
-                    </select>
-                    <p>to</p>
-                    <select>
-                      <option>₹5,000</option>
-                      <option>₹10,000</option>
-                      <option>₹15,000</option>
-                      <option>₹20,000</option>
-                      <option>₹25,000</option>
-                      <option>₹30,000</option>
-                    </select>
-                  </div>
-                </div>
               </div>
             </div>
-
             <div className="filteritem">
               <div class="dropdown">
                 <div className="dpc">
@@ -221,27 +200,7 @@ const ElectronicViewCont = () => {
                 </div>
               </div>
               <div className="right">
-                <div className="upper">
-                  <p>₹9,699</p>
-                  <img src={img2} alt="" />
-                </div>
-                <div className="down">
-                  <p className="thorught"> ₹14,999</p>
-                  <p className="thorught2" style={{ color: "#075522" }}>
-                    35% off
-                  </p>
-                </div>
-                <p style={{ fontSize: "14px" }}>Free delivery</p>
-                <p
-                  style={{
-                    fontSize: "18px",
-                    color: "#0d4f25",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Top Discount on Sale
-                </p>
-                <p style={{fontSize : '14px'}}>Upto <strong>₹9,150</strong> off on Exchange</p>
+                <img src={img2} alt="" />
               </div>
             </div>
             <div className="three-sec">
@@ -280,27 +239,7 @@ const ElectronicViewCont = () => {
                 </div>
               </div>
               <div className="right">
-                <div className="upper">
-                  <p>₹9,699</p>
-                  <img src={img2} alt="" />
-                </div>
-                <div className="down">
-                  <p className="thorught"> ₹14,999</p>
-                  <p className="thorught2" style={{ color: "#075522" }}>
-                    35% off
-                  </p>
-                </div>
-                <p style={{ fontSize: "14px" }}>Free delivery</p>
-                <p
-                  style={{
-                    fontSize: "18px",
-                    color: "#0d4f25",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Top Discount on Sale
-                </p>
-                <p style={{fontSize : '14px'}}>Upto <strong>₹9,150</strong> off on Exchange</p>
+                <img src={img2} alt="" />
               </div>
             </div>
 
@@ -340,27 +279,7 @@ const ElectronicViewCont = () => {
                 </div>
               </div>
               <div className="right">
-                <div className="upper">
-                  <p>₹9,699</p>
-                  <img src={img2} alt="" />
-                </div>
-                <div className="down">
-                  <p className="thorught"> ₹14,999</p>
-                  <p className="thorught2" style={{ color: "#075522" }}>
-                    35% off
-                  </p>
-                </div>
-                <p style={{ fontSize: "14px" }}>Free delivery</p>
-                <p
-                  style={{
-                    fontSize: "18px",
-                    color: "#0d4f25",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Top Discount on Sale
-                </p>
-                <p style={{fontSize : '14px'}}>Upto <strong>₹9,150</strong> off on Exchange</p>
+                <img src={img2} alt="" />
               </div>
             </div>
 
@@ -400,27 +319,7 @@ const ElectronicViewCont = () => {
                 </div>
               </div>
               <div className="right">
-                <div className="upper">
-                  <p>₹9,699</p>
-                  <img src={img2} alt="" />
-                </div>
-                <div className="down">
-                  <p className="thorught"> ₹14,999</p>
-                  <p className="thorught2" style={{ color: "#075522" }}>
-                    35% off
-                  </p>
-                </div>
-                <p style={{ fontSize: "14px" }}>Free delivery</p>
-                <p
-                  style={{
-                    fontSize: "18px",
-                    color: "#0d4f25",
-                    fontWeight: "bold",
-                  }}
-                >
-                  Top Discount on Sale
-                </p>
-                <p style={{fontSize : '14px'}}>Upto <strong>₹9,150</strong> off on Exchange</p>
+                <img src={img2} alt="" />
               </div>
             </div>
           </div>
